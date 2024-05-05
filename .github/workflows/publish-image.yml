@@ -39,5 +39,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.actor }}/sassbot:latest
-            ghcr.io/${{ github.actor }}/sassbot:${{ steps.version.outputs.version }}
+            ghcr.io/${{ github.actor }}/sassbot-docker:latest
+            ghcr.io/${{ github.actor }}/sassbot-docker:${{ steps.version.outputs.version }}
