@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM ubuntu:22.04
+FROM ubuntu:jammy-20240627.1
 
 ENV DEBIAN_FRONTEND=noninteractive
 ARG GITHUB_REPO="jasmeralia/SassBot"
