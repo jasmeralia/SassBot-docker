@@ -19,7 +19,7 @@ RUN echo 1234
 
 # Install chromedriver
 RUN mkdir /opt/chromedriver && \
-    wget -q --continue -P /opt/chromedriver "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/linux64/chromedriver-linux64.zip" && \
+    wget -q --continue -P /opt/chromedriver "https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/127.0.6533.99/linux64/chromedriver-linux64.zip" && \
     unzip /opt/chromedriver/chromedriver-linux64.zip -d /opt/chromedriver && \
     mv /opt/chromedriver/chromedriver-linux64/chromedriver /usr/bin/chromedriver
 
